@@ -28,6 +28,10 @@ Espacio para conocer historias, carreras y experiencias de otras personas.
 
 🔗 [Somos Cometa - Instagram](https://www.instagram.com/somos_cometa/?hl=es)
 
+### INSPIRATE UNI
+Ferias vocacionales organizadas en la UNI y de forma virtual.
+🔗[INSPIRATE - Instagram](https://www.instagram.com/inspirateuni/?hl=es)
+
 ---
 
 # 🇵🇪 Becas Peruanas
