@@ -54,6 +54,11 @@ Programa de becas para realizar estudios de pregrado en la Universidad de Lima.
 
 🔗 [Beca ULIMA Ilse Wisotzki](https://www.ulima.edu.pe/beca-ulima-ilse-wisotzki)
 
+### Beca BCP
+Nuestro programa Becas BCP brinda acceso a una educación superior de calidad, universitaria y técnica, a jóvenes talentosos del Perú desde el 2012, en alianza con prestigiosas instituciones educativas en Lima y provincias.
+
+🔗 [Becas BCP](https://www.viabcp.com/becasbcp)
+
 ---
 
 ## 🎓 Becas de posgrado
@@ -165,7 +170,7 @@ Programa enfocado en impulsar la participación y empleabilidad de mujeres en te
 ## REPU
 Programa/iniciativa relacionada con oportunidades de desarrollo académico y profesional.
 
-> 🔗 Enlace pendiente.
+> 🔗 [REPU](https://www.instagram.com/repu.program/)
 
 ---
 
