@@ -13,6 +13,11 @@ alessandrarodriguezm@gmail.com
 George  - Beca Fulbright, MIT, Diseño y Gestión de Sistemas 
 george.steve.fs@gmail.com
 
+Samuel
+
+Alejandro 
+
+
 
 
 # 🎓 Recursos de Oportunidades, Becas y Desarrollo Profesional
