@@ -1,240 +1,36 @@
-# VOCES DE CHIMBOTE
-Este repositorio es creado con el objetivo de compartir oportunidades y crear comunidades entre jóvenes de Chimbote. (Por ahora, veamos que sucede en el futuro!)
+# Voces de Chimbote — sitio web
 
+Sitio estático de una página (+ página de recursos) para la iniciativa **Voces de Chimbote**.
 
-## Hoja de recursos
-¡Hola! Gracias por asistir a nuestro primer evento. Hemos preparado esta hoja de recursos con información a la que hemos podido acceder o que conocemos y que queremos compartir con ustedes.
-Esperamos que puedan aprovecharlos. Si tienen alguna consulta, pueden contactarnos a través de nuestros correos electrónicos o redes sociales.
-¡Juntos podemos generar y fortalecer más Voces de Chimbote!
+## Archivos
 
-Alessandra Rodríguez - Beca Fulbright, Beca Bicentenario, Harvard, Arquitectura y Urbanismo
-alessandrarodriguezm@gmail.com 
+```
+├── index.html          → página principal
+├── recursos.html        → becas, intercambios y voluntariados
+├── css/styles.css       → estilos (todo el diseño vive aquí)
+├── js/main.js            → menú móvil, animaciones al hacer scroll, resaltado del menú
+├── images/                → fotos usadas en el sitio
+└── README.md
+```
 
-George  - Beca Fulbright, MIT, Diseño y Gestión de Sistemas 
-george.steve.fs@gmail.com
+No hay build step: es HTML/CSS/JS plano, así que se puede subir tal cual.
 
-Samuel
+## Cómo publicarlo en GitHub Pages
 
-Alejandro 
+1. Crea un repositorio en GitHub (por ejemplo `voces-de-chimbote`).
+2. Sube **todos** los archivos y carpetas de esta entrega manteniendo la misma estructura (que `index.html` quede en la raíz del repo).
+3. En GitHub, ve a **Settings → Pages**.
+4. En "Build and deployment" elige **Deploy from a branch**, rama `main` (o `master`), carpeta `/ (root)`.
+5. Guarda. En 1–2 minutos tu sitio estará en `https://tu-usuario.github.io/voces-de-chimbote/`.
 
+## Cosas para personalizar antes de publicar
 
+- **Formulario de interés**: el botón "Completar formulario" en `index.html` (`id="form-link"`) y el botón "Ver en GitHub" en `recursos.html` apuntan a `#`. Reemplaza el `href` por el link real de tu Google Form y de tu repositorio.
+- **Fotos de los ponentes**: ya están incluidas en `images/speakers/` (recortadas del flyer que compartieron). Si en algún momento quieren reemplazarlas por versiones en mayor resolución, solo hay que mantener el mismo nombre de archivo (`alessandra.jpg`, `samuel.jpg`, `alejandro.jpg`, `george.jpg`) o actualizar el `src` correspondiente en `index.html`.
+- **Becas con enlace pendiente**: "Beca Alianza del Pacífico" y "Beca Santander Iberoamérica" en `recursos.html` no tenían link en el documento original — quedaron sin `href` real (`href="#"`) hasta que tengan el enlace oficial.
+- **Redes sociales**: si quieren agregar Instagram/TikTok, hay espacio en el footer (`footer-top`) para una cuarta columna.
 
+## Créditos de imágenes
 
-# 🎓 Recursos de Oportunidades, Becas y Desarrollo Profesional
-
-Repositorio de recursos para estudiantes, jóvenes profesionales, docentes y personas interesadas en becas, intercambios, voluntariados y oportunidades de desarrollo académico y profesional.
-
----
-
-## 🧭 ¿No sabes qué estudiar?
-
-### Cometa Fest
-Espacio para conocer historias, carreras y experiencias de otras personas.
-
-🔗 [Somos Cometa - Instagram](https://www.instagram.com/somos_cometa/?hl=es)
-
-### INSPIRATE UNI
-Ferias vocacionales organizadas en la UNI y de forma virtual.
-
-🔗[INSPIRATE - Instagram](https://www.instagram.com/inspirateuni/?hl=es)
-
----
-
-# 🇵🇪 Becas Peruanas
-
-## 🎓 Becas de pregrado
-
-### Beca 18 - PRONABEC
-Beca dirigida a jóvenes peruanos con alto rendimiento académico y recursos económicos limitados.
-
-🔗 [Beca 18 - PRONABEC](https://www.pronabec.gob.pe/beca-18/)
-
-### Beca ULIMA Ilse Wisotzki
-Programa de becas para realizar estudios de pregrado en la Universidad de Lima.
-
-🔗 [Beca ULIMA Ilse Wisotzki](https://www.ulima.edu.pe/beca-ulima-ilse-wisotzki)
-
-### Beca BCP
-Nuestro programa Becas BCP brinda acceso a una educación superior de calidad, universitaria y técnica, a jóvenes talentosos del Perú desde el 2012, en alianza con prestigiosas instituciones educativas en Lima y provincias.
-
-🔗 [Becas BCP](https://www.viabcp.com/becasbcp)
-
----
-
-## 🎓 Becas de posgrado
-
-### Beca Generación Bicentenario - PRONABEC
-Financiamiento para estudios de maestría y doctorado en universidades internacionales.
-
-🔗 [Beca Generación Bicentenario](https://www.pronabec.gob.pe/beca-generacion-bicentenario/)
-
-### Becas CONCYTEC / ProCiencia
-Oportunidades vinculadas a investigación, ciencia, tecnología e innovación.
-
-🔗 [ProCiencia / CONCYTEC](https://portalanterior.prociencia.gob.pe/)
-
----
-
-## 💰 Crédito educativo
-
-### Crédito Pro - PRONABEC
-Alternativa de financiamiento para estudios superiores.
-
-🔗 [Crédito Pro](https://www.pronabec.gob.pe/credito-pro/)
-
----
-
-# ✈️ Becas para intercambios durante el pregrado
-
-### Beca Alianza del Pacífico
-Programa de movilidad académica entre países miembros de la Alianza del Pacífico.
-
-### Beca Santander Iberoamérica
-Programa de movilidad académica internacional para estudiantes universitarios.
-
----
-
-# 🌎 Becas Internacionales para Posgrado
-
-## 🇺🇸 Estados Unidos
-
-### Fulbright - Beca de Posgrado
-Becas para realizar estudios de maestría y doctorado en Estados Unidos.
-
-🔗 [Beca de Posgrado Fulbright](https://www.fulbright.pe/becaposgradofulbright)
-
-### Hubert H. Humphrey Fellowship
-Programa dirigido a profesionales y líderes con experiencia.
-
-🔗 [Humphrey Fellowship - Fulbright Perú](https://www.fulbright.pe/hhhfellowship)
-
----
-
-## 🇬🇧 Reino Unido
-
-### Chevening Scholarship
-Programa de becas del Gobierno del Reino Unido para realizar estudios de maestría.
-
-🔗 [Chevening Scholarships](https://www.chevening.org/scholarships/)
-
----
-
-## 🇪🇸 España
-
-### Fundación Carolina
-Becas para estudios de posgrado, doctorado y otras modalidades académicas.
-
-🔗 [Fundación Carolina - Posgrado](https://www.fundacioncarolina.es/formacion/postgrado/)
-
----
-
-## 🇩🇪 Alemania
-
-### DAAD
-Programa de becas para estudios, investigación y formación académica en Alemania.
-
-🔗 [DAAD Scholarships](https://www.daad.de/en/studying-in-germany/scholarships/daad-scholarships/)
-
----
-
-## 🇪🇺 Europa
-
-### Erasmus Mundus
-Programas conjuntos de maestría ofrecidos por consorcios de universidades europeas.
-
-🔗 [Erasmus Mundus](https://www.emhrpp.com/how-to-apply)
-
----
-
-# 👩‍🏫 Becas para docentes
-
-## 🇺🇸 Fulbright Visiting Scholar
-Programa dirigido a docentes e investigadores de universidades públicas y privadas.
-
-🔗 [Fulbright Visiting Scholar](https://www.fulbright.pe/beca-visiting-scholar)
-
-## 🇺🇸 Fulbright TEA
-Programa dirigido a docentes de colegios.
-
-🔗 [Fulbright TEA](https://www.fulbright.pe/beca-tea)
-
----
-
-# 💻 Iniciativas para mejorar habilidades
-
-## Laboratoria
-Programa enfocado en impulsar la participación y empleabilidad de mujeres en tecnología.
-
-🔗 [Laboratoria](https://laboratoria.la/)
-
-## REPU
-Programa/iniciativa relacionada con oportunidades de desarrollo académico y profesional.
-
-> 🔗 [REPU](https://www.instagram.com/repu.program/)
-
----
-
-# 🤝 Voluntariados y liderazgo
-
-## CADE Universitario
-Espacio de formación, liderazgo y conexión entre jóvenes universitarios del Perú.
-
-🔗 [CADE Universitario 2026](https://www.ipae.pe/cade-universitario-2026/)
-
-## AIESEC Perú
-Organización juvenil internacional con oportunidades de voluntariado, liderazgo e intercambios.
-
-🔗 [AIESEC en Perú - Instagram](https://www.instagram.com/aiesecenperu/?hl=es)
-
-## SENAJU - Secretaría Nacional de la Juventud
-Programas y oportunidades de voluntariado dirigidos a jóvenes.
-
-🔗 [Voluntariado Juvenil de la Alianza del Pacífico](https://juventud.gob.pe/voluntariado-juvenil-de-la-alianza-del-pacifico/)
-
----
-
-# 🗣️ Idiomas
-
-> Sección en construcción.
-
-Puedes incluir aquí recursos para:
-
-- Inglés
-- Francés
-- Alemán
-- Portugués
-- Preparación para TOEFL
-- Preparación para IELTS
-- Certificaciones internacionales
-
----
-
-# 💡 Recomendación
-
-No necesitas aplicar a todas las oportunidades.
-
-Busca aquellas que tengan relación con:
-
-- Tus intereses.
-- Tu etapa académica.
-- Tu experiencia.
-- Tus objetivos profesionales.
-- El país o región donde te gustaría estudiar.
-- El impacto que quieres generar.
-
-Muchas oportunidades se construyen progresivamente: una experiencia de voluntariado puede llevar a un intercambio, un intercambio a una investigación y una investigación a una beca de posgrado.
-
----
-
-## 🚀 ¿Conoces otra oportunidad?
-
-Si conoces una beca, programa, voluntariado o recurso que debería estar en esta lista, puedes contribuir al repositorio mediante un **Pull Request** o creando un **Issue**.
-
----
-
-⭐ Si este repositorio te resulta útil, considera darle una **Star** para que más personas puedan encontrarlo.
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+- Las fotos en `images/` (panorámica de la bahía de Chimbote y las tres fotos de comunidad/jóvenes/evento) provienen del PDF original compartido (`VOCES_DE_CHIMBOTE__2_.pdf`).
+- Las fotos en `images/speakers/` provienen del flyer de expositores que compartieron. Si tienen las fotos originales en mayor resolución, reemplazarlas mejorará la nitidez en pantallas grandes.
