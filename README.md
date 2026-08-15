@@ -30,6 +30,7 @@ Espacio para conocer historias, carreras y experiencias de otras personas.
 
 ### INSPIRATE UNI
 Ferias vocacionales organizadas en la UNI y de forma virtual.
+
 🔗[INSPIRATE - Instagram](https://www.instagram.com/inspirateuni/?hl=es)
 
 ---
